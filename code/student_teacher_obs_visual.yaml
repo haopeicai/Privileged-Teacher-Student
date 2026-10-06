@@ -1,0 +1,13 @@
+# Visual Student configuration.
+# The Teacher remains the original privileged 98-D state. The Student receives
+# the original 50-D proprioceptive vector plus the front RGB camera below.
+student_terms:
+  - joint_pos
+  - joint_vel
+  - actions
+teacher_terms: all
+camera_name: front_camera
+camera_data_type: rgb
+camera_width: 320
+camera_height: 240
+camera_channels: 3

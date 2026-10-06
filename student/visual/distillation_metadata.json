@@ -1,0 +1,14 @@
+{
+  "release_type": "student_checkpoint",
+  "architecture": "VisualStudent(CNN+proprio)",
+  "student_terms": ["joint_pos", "joint_vel", "actions"],
+  "teacher_terms": "all (not released)",
+  "student_proprio_dim": 50,
+  "camera_name": "front_camera",
+  "camera_shape_chw": [3, 240, 320],
+  "num_actions": 14,
+  "residual_scale": 0.36,
+  "residual_lift_gate": 0.06,
+  "residual_lift_gate_width": 0.06,
+  "note": "Teacher checkpoint paths, training results, and evaluation results are intentionally omitted from this release."
+}
